@@ -37,4 +37,4 @@ def handle(message):
         except:
             bot.send_message(message.chat.id, "Брокер задумался, попробуй еще раз.")
 
-bot.polling(none_stop=True)
+bot.polling(none_stop=True) 
